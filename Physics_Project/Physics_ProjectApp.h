@@ -70,11 +70,18 @@ protected:
 
 	bool playerWin1 = false;
 	bool playerWin2 = false;
+
+	// False = turn 1
+	// True = turn 2
+	bool turn = false;
+
+	bool TURN_2 = true;
+	bool TURN_1 = false;
 	
 	// Red player
 	const int PLAYER_ONE_MAX = 5;
 	// Blue Player
-	const int PLAYER_TWO_MAX = 5;
+	const int PLAYER_TWO_MAX = 6;
 
 	// red player
 	int playerOneScore = 0;
